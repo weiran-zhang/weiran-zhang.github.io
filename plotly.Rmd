@@ -53,3 +53,12 @@ rest_inspec %>%
 
 ```
 
+```{r}
+##make a bar plot showing number of restaurants in each types of cuisine in manhattan
+rest_inspec %>%
+  count(cuisine_description) %>%
+  mutate(cuisine_description = fct_reorder(cuisine_description, n)) %>%
+  plot_ly(x = ~cuisine_description, y = ~n, type = "bar")
+
+```
+
