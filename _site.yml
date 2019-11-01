@@ -5,6 +5,12 @@ navbar:
   right:
     - text: "Resume"
       href: resume.html
+    - text: "NYC Restaurant Inspections"
+      menu:
+      - text: "Plotly"
+        href: plotly.html
+      - text: "FlexDashboard"
+        href: FlexDashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<you@youremail.com>
     - icon: fa-github fa-lg
