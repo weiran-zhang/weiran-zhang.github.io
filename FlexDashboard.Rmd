@@ -1,0 +1,68 @@
+---
+title: "My FlexDashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+data(rest_inspec)
+
+set.seed(1)
+
+rest_inspec = 
+  rest_inspec %>%
+  separate(inspection_date, c("year","month","day"), sep = "-") %>%
+  select(
+         boro, building, cuisine_description, dba, score, street, zipcode, grade, year) %>%
+  filter(
+    !is.na(score),
+    boro == "MANHATTAN",
+    grade %in% c("A", "B")
+  ) 
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+rest_inspec %>%
+  mutate(cuisine_description = fct_reorder(cuisine_description, score)) %>%
+  plot_ly(y  = ~score, color = ~cuisine_description, type = "box", colors = "Set2")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+rest_inspec %>%
+  count(cuisine_description) %>%
+  mutate(cuisine_description = fct_reorder(cuisine_description, n)) %>%
+  plot_ly(x = ~cuisine_description, y = ~n, type = "bar")
+```
+
+### Chart C
+
+```{r}
+rest_inspec %>%
+  group_by(year, grade) %>%
+  summarize(n = n()) %>%
+  filter(grade == "A") %>%
+  ungroup() %>%
+  plot_ly(x = ~year, y = ~n, type = "scatter", mode = "lines+markers")
+```
+
