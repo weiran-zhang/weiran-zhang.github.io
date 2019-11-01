@@ -7,6 +7,7 @@ output:
 ---
 
 #  Website Introduction
+
 This website contains a main page including my formal photo, link to my github page and link to my linkedin page; This website also contains a separate of my resume introducing my academic and professional experiences; Another page of this website contains plotly page with codes and plots and a flex dashboard page with the three different types of plots exploring different relationships within the NYC Restaurant Inspections dataset. 
 
 
@@ -15,10 +16,12 @@ This website contains a main page including my formal photo, link to my github p
 
 
 #  My Github
+
 Here is my [Github](https://github.com/weiran-zhang)
 
 
 #  My Linkedin
+
 Here is my [Linkedin](https://www.linkedin.com/in/蔚然-张-54616b193/)
 
 
