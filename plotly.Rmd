@@ -45,3 +45,11 @@ rest_inspec
   
 ```
 
+```{r}
+##make a boxplot show the scores of different kind of cuisine types in manhattan
+rest_inspec %>%
+  mutate(cuisine_description = fct_reorder(cuisine_description, score)) %>%
+  plot_ly(y  = ~score, color = ~cuisine_description, type = "box", colors = "Set2")
+
+```
+
