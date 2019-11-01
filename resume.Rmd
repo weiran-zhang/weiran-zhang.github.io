@@ -1,0 +1,96 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+#  Here is my academic and professional experiences
+
+**Weiran Zhang**
+
+50 Haven Ave, New York, New York 10032
+
+(216)544-6021 | wz2506@ cumc.columbia.edu
+
+**EDUCATION**
+
+Columbia University                                                 Sept. 2019-2021
+
+Master of Science(MS), Biostatistics, expected May 2021
+
+Relevant Courses: Probability, Biostatistical Methods, Data Science, Introduction to Epidemiology
+
+Case Western Reserve University        
+
+Bachelor of Science(BS), Mathematics & Bachelor of Arts(BA), Statistics, received May 2019
+Sept. 2015-2019
+
+Major in Mathematics & Statistics
+
+GPA: 3.50/4.0; GRE 327 (V 158 +Q 169)+AW 3.5
+
+Relevant Courses: Elementary Number Theory, Stat Theory w/ Application, Actuarial Science, Calculus, Introduction to Advanced Mathematics, Complex Analysis, Discrete Mathematics, Elem Differential Equations, Linear Algebra, Data Analysis and Linear Models, Introduction to Numerical Analysis, Statistics, Probability, Theoretical Statistics, Multivariate Analysis and Data Mining, Basic Statistics for Engineering and Science
+
+Honors: Dean’s Honor of Academic Excellence (2017)
+
+
+**INTERNSHIP EXPERIENCE**
+
+Intern, Pilot National Laboratory for Marine Science and Technology, Qingdao, China                Jun. 2019-Aug. 2019
+
+1.Analyzed and identified target on human proteins to find the effective binding sites for medication to treat illness
+2.Collected online research and study resources about drug screening and target identification, online resources like Nature Publishing, AAAS, NAS, Cell, Springer and Wiley Online Library
+
+Intern, LuZheng Economic and Trade Co.,Ltd, Jinan, China                                         	             Jun. 2018-Aug. 2018
+
+Department of over-the-counter (OTC) derivatives, Intern
+
+1.Acquired a lot of knowledge about option pricing through wide reading, analyzed the data and assisted trader in bookkeeping and report making
+2.Participated in the work of pricing of OTC derivatives including Vanilla Options, Barrier Option, Auto-callable and Spread Option, programmed with Python and VBA
+3.Made use of analytical solution and Monte Carlo method for option pricing, compared and verified these two methods
+
+Intern, Essence Securities Company, Guangzhou, China                                              		             May. 2018-Jun. 2018
+
+1.Collected sub-companies credit records information and analyzed the records data to ensure companies had good records
+2.Managed the information of the sub-companies from different websites 
+
+Intern, Hejun Consulting Company, Beijing, China                                                    		              Jul. 2016-Aug. 2016
+
+1.Helped with collecting the information online by using excel and words
+2.Did market research and survey to help an organic food company to come up with ideas
+
+**ACADEMIC EXPERIENCE**
+A case study of the Real Estate Sales data                                                  					    Nov. 2018-Dec. 2018
+
+Fitted a first-order regression model to the “raw” test data, decided the pool of predictor variables
+
+Used the group of predictors and the response to reduce the number of explanatory variables which included ordering all possible subsets based on the AIC, BIC and R(α,2) criteria, used the step( ) function in R do stepwise regression and so on
+
+Identified influential observations by calculating Cook's distance for each observation and plotted them (against the case number)
+
+Predicted the validation dataset and obtain the mean squared prediction error (MSPR) and compared to the estimated MSE
+
+Fitted the model to the validation dataset and compare estimated regression coefficients (through confidence intervals), MSE and R2
+
+**VOLUNTEER LEADERSHIP**
+
+Volunteer, Judson Manor Retiring Financial Department, Cleveland, Ohio                                              		     2016-2017
+
+Worked as a volunteer at the financial office of Judson Manor Retiring 
+Living, focused on collecting and managing the residents accounts
+
+Peer Tutor, ESS Undergraduate Study Center, Cleveland, Ohio                                               		     2016-2018
+
+Tutoring in various mathematics and economics courses
+
+**SKILLS**
+
+Strong knowledge of MS Office (Word, Excel, Powerpoint), R, Matlab, Python, VBA
+
+Languages: Native speaker of Mandarin Chinese; Fluent in English; Basic use of Japanese
+
+**INTERESTS**
+
+Basketball, Yoga, K-POP Music
