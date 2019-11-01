@@ -62,3 +62,13 @@ rest_inspec %>%
 
 ```
 
+```{r}
+##make a line plot showing the number of restaurant graded as "A" from each year and see the trends by using the line connect them together
+rest_inspec %>%
+  mutate(year = as.integer(year)) %>%
+  group_by(year, grade) %>%
+  summarize(n = n()) %>%
+  filter(grade == "A") %>%
+  ungroup() %>%
+  plot_ly(x = ~year, y = ~n, type = "scatter", mode = "lines+markers")
+```
