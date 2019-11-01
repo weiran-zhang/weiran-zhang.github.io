@@ -26,3 +26,22 @@ rest_inspec
 
 ```
 
+```{r, include = FALSE}
+set.seed(1)
+
+rest_inspec = 
+  rest_inspec %>%
+  separate(inspection_date, c("year","month","day"), sep = "-") %>%
+  select(
+         boro, building, cuisine_description, dba, score, street, zipcode, grade, year) %>%
+  filter(
+    !is.na(score),
+    boro == "MANHATTAN",
+    grade %in% c("A", "B")
+  ) 
+  
+
+rest_inspec
+  
+```
+
